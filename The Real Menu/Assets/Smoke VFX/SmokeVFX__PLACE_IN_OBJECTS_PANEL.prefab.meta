@@ -1,0 +1,53 @@
+- !<AssetImportMetadata/9a2202ac-d3fc-45be-b088-2fa8f92817d4>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 45317965-f2c2-4ae5-bbc5-ada571aaf520
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 45317965-f2c2-4ae5-bbc5-ada571aaf520
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    ObjectPrefab: !<own> 57698c0b-0138-4607-bd83-c93ebe6f2141
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/a6280093-7b38-4727-a9d1-bb5a95277bf4>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ObjectPrefab/04bb0c1f-5af5-48a2-b302-41d4160fff13>
+  PackagePath: SmokeVFX__PLACE_IN_OBJECTS_PANEL
+  objects:
+    - !<own> e0c0d731-21d3-4ddf-8305-ebe50d5c9917
+  LazyLoading: false
+  RetainAssets: true
+- !<ObjectPrefabAssetData/57698c0b-0138-4607-bd83-c93ebe6f2141>
+  SourceRemaps:
+    - 7c1b5604-b03b-4592-baea-dc6b0416366e: 6b93e457-1903-4851-bd96-3726cd82b9a8
+    - 87ddfb4d-02dc-477e-a2e4-00e12cbb85f2: e0c0d731-21d3-4ddf-8305-ebe50d5c9917
+  SourceState: !<own> 04bb0c1f-5af5-48a2-b302-41d4160fff13
+- !<VFXComponent/6b93e457-1903-4851-bd96-3726cd82b9a8>
+  PrefabRemaps:
+    []
+  Name: VFX Component
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  VFXAsset: !<reference> 148bd482-8c3d-45a9-a9da-311f0d8590a3
+- !<SceneObject/e0c0d731-21d3-4ddf-8305-ebe50d5c9917>
+  PrefabRemaps:
+    []
+  Name: SmokeVFX__PLACE_IN_OBJECTS_PANEL
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 6b93e457-1903-4851-bd96-3726cd82b9a8
